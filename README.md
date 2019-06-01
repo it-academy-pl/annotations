@@ -21,15 +21,16 @@ method.invoke(object, arg1, arg2, ...)
 ### Task
 
 1. Clone repository
-2. In annotations package create your own annotation:
+2. Create new branch in local repository. All changes should be done in branch.
+3. In annotations package create your own annotation:
 * **@Execute** annotation
 * With int parameter **times** and default value **1**
 * Annotation should be available in runtime
 * Annotation should be applicable only to methods
-3. Annotate with created annotation any two methods from **AnnotatedClass** class
-4. In one of annotations change default value for **times** parameter
-5. In **AnnotationTester** class implement the **main** method:
+4. Annotate with created annotation any two methods from **AnnotatedClass** class
+5. In one of annotations change default value for **times** parameter
+6. In **AnnotationTester** class implement the **main** method:
 * Using Reflection API get list of methods from **AnnotatedClass** 
 * Execute only annotated methods from the class
 * Each method should be executed *n* times, depending on **times** value from annotation.
-
+7. Push your branch to remote repository
